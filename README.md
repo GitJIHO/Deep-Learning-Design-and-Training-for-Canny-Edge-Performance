@@ -185,6 +185,21 @@ refined_edges = cv2.morphologyEx(prediction, cv2.MORPH_CLOSE, kernel)
 
 ## 결론
 
+### 실험 결과
+#### === 1) 새로운 GT(Canny Edge)와 모델 결과간 Accuracy 측정 ===
+
+Accuracy: 0.8812 (88.12%)
+
+#### === 2) 기존 GT와 모델 결과간 Accuracy 측정 ===
+Accuracy: 0.5003 (50.03%)
+
+![image](https://github.com/user-attachments/assets/36f515c2-4590-4afa-83c6-7adabaab1cc1)
+
+![image](https://github.com/user-attachments/assets/dd475982-9a83-4b0f-90d1-fb592a307860)
+
+#### 📊 사용자 이미지 평가 결과:
+   Accuracy: 0.9737 (97.37%)
+
 ### 프로젝트 성과
 본 프로젝트에서는 Canny Edge Detection 알고리즘을 Ground Truth로 활용하여 딥러닝 모델을 성공적으로 학습시켰습니다. 주요 성과는 다음과 같습니다:
 
